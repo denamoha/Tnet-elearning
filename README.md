@@ -22,6 +22,8 @@ Phpmyadmin to manage the database
 4. Change folder ownership permissions
  > sudo chown -R www-data:www-data learn
 5. Upload the two files to your main root folder (installer.php and the zip folder) using Filezilla or your recommended ftp software
+> you can also copy your files directly using scp 
+  scp 
 
 6. Open your browser and go to localhost/installer.php or your_ip_address/installer.php to confirm your have the right setup 
 > e.g 192.168.136.10/installer.php or localhost/installer.php
