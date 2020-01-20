@@ -1,15 +1,15 @@
 # soma elearning platform 
 This is a bundled elearning platform package developed by Tunapandanet for community networks.
-site demo can be found <here>
+A site demo can be found [here](http://197.136.151.9/soma)
 Installation 
 Dependancies 
 # Prerequisites 
-
-Install LAMP Stack on Ubuntu 18.04
+[Install LAMP Stack on Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-lamp-stack-on-ubuntu)
+[Installing apache](https://www.liquidweb.com/kb/install-apache-2-ubuntu-18-04/)
+[Installing phpmyadmin](https://www.liquidweb.com/kb/install-phpmyadmin-ubuntu-18-04/)
 
 #Installation
-Setup Lamp server
-Phpmyadmin to manage the database 
+
 1. Go to your root directory
 >cd /var/www/html
 
