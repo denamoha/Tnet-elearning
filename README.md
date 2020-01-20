@@ -4,24 +4,33 @@ A site demo can be found [here](http://197.136.151.9/soma)
 Installation 
 Dependancies 
 # Prerequisites 
+
+Required Files
+* installer.php from this repo
+* Zipped File downloadable from this [link](https://drive.google.com/file/d/1x_Aup_dAJkHoKZ-gJxOZ5Tcg2Z6O2gqM/view?usp=sharing)
+
 [Install LAMP Stack on Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-lamp-stack-on-ubuntu)
-[Installing apache](https://www.liquidweb.com/kb/install-apache-2-ubuntu-18-04/)
-[Installing phpmyadmin](https://www.liquidweb.com/kb/install-phpmyadmin-ubuntu-18-04/)
 
-#Installation
+[Installing apache on ubuntu](https://www.liquidweb.com/kb/install-apache-2-ubuntu-18-04/)
 
-1. Go to your root directory
+[Installing phpmyadmin on ubuntu ](https://www.liquidweb.com/kb/install-phpmyadmin-ubuntu-18-04/)
+
+#Installing Soma
+
+
+
+1. Go to your root directory(terminal)
 >cd /var/www/html
 
-2. Create a folder <your elearning learn site name>
->mkdir learn
+2. Create a folder <your elearning site's name>
+>mkdir Soma
 
 3. Change folder permissions
-> sudo chmod -R 755 learn
+> sudo chmod -R 755 Soma
 
 4. Change folder ownership permissions
- > sudo chown -R www-data:www-data learn
-5. Upload the two files to your main root folder (installer.php and the zip folder) using Filezilla or your recommended ftp software
+ > sudo chown -R www-data:www-data Soma
+5. Upload the two files to the folder you created (installer.php and the zip folder) using Filezilla or your recommended ftp software
 > you can also copy your files directly using scp 
   scp 
 
