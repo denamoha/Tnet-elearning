@@ -15,7 +15,7 @@ Required Files
 
 [Installing phpmyadmin on ubuntu ](https://www.liquidweb.com/kb/install-phpmyadmin-ubuntu-18-04/)
 
-# Installing Soma
+# Installing Soma on Ubuntu
 
 
 
@@ -48,3 +48,22 @@ Required Files
   utf_unicode_ci
   > Enter these details in the running installer
 8. Follow the instructions to finnish your installation
+
+
+# Installing Soma on Windows
+1. Make sure your XAMP server is running 
+2. Create a folder soma (You can name it however you want but be sure to replace this moving forward)
+3. Go to localhost/soma/installer.php
+4. Use the default settings and click next to continue
+5. Wait for unzip process
+6. Create your database (phpmyadmin)
+7.  Go back to the installer and fIll in your new database, user & password then click test database
+If pass
+8. Click Next 
+9. Confirm updated data and click next
+10. Click on the Admin Login to login to your new Soma website 
+  Username:
+  Password: 
+ 
+ > 
+2. 
