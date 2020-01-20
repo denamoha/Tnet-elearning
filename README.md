@@ -1,6 +1,6 @@
-# Tunapandanet's elearning platform 
-This is an bundled elearning platform package developed by Tunapandanet for community networks.
-platform demo can be found <here>
+# soma elearning platform 
+This is a bundled elearning platform package developed by Tunapandanet for community networks.
+site demo can be found <here>
 Installation 
 Dependancies 
 # Prerequisites 
