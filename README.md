@@ -47,4 +47,4 @@ Required Files
   Create a database
   utf_unicode_ci
   > Enter these details in the running installer
-8. Follow the instaractions to finnish your installation
+8. Follow the instructions to finnish your installation
