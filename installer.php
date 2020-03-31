@@ -89,11 +89,11 @@ abstract class DUPX_Bootstrap_Zip_Mode
 class DUPX_Bootstrap
 {
 	//@@ Params get dynamically swapped when package is built
-	const ARCHIVE_FILENAME	 = '20200115_somo_59e2a2643fbf17407923_20200120131451_archive.zip';
-	const ARCHIVE_SIZE		 = '76858620';
+	const ARCHIVE_FILENAME	 = 'tnet_soma_d3d53a5327b2c5bf3833_20200331090934_archive.zip';
+	const ARCHIVE_SIZE		 = '174870874';
 	const INSTALLER_DIR_NAME = 'dup-installer';
-	const PACKAGE_HASH		 = '59e2a26-20131451';
-	const VERSION			 = '1.3.24';
+	const PACKAGE_HASH		 = 'd3d53a5-31090934';
+	const VERSION			 = '1.3.28';
 
 	public $hasZipArchive     = false;
 	public $hasShellExecUnzip = false;
@@ -144,7 +144,7 @@ class DUPX_Bootstrap
 	{
 		date_default_timezone_set('UTC'); // Some machines don't have this set so just do it here
         
-		self::log('==DUPLICATOR INSTALLER BOOTSTRAP v1.3.24==');
+		self::log('==DUPLICATOR INSTALLER BOOTSTRAP v1.3.28==');
 		self::log('----------------------------------------------------');
 		self::log('Installer bootstrap start');
 
@@ -620,19 +620,19 @@ class DUPX_Bootstrap
 				$ret .= '<font color="red">' . $newString[$i] . '</font>';
 				continue;
 			}
-			for($char=0; isset($oldString[$i]{$char}) || isset($newString[$i]{$char}); $char++) {
+			for($char=0; isset($oldString[$i][$char]) || isset($newString[$i][$char]); $char++) {
 	
-				if(!isset($oldString[$i]{$char})) {
+				if(!isset($oldString[$i][$char])) {
 					$ret .= '<font color="red">' . substr($newString[$i], $char) . '</font>';
 					break;
-				} elseif(!isset($newString[$i]{$char})) {
+				} elseif(!isset($newString[$i][$char])) {
 					break;
 				}
 	
-				if(ord($oldString[$i]{$char}) != ord($newString[$i]{$char}))
-					$ret .= '<font color="red">' . $newString[$i]{$char} . '</font>';
+				if(ord($oldString[$i][$char]) != ord($newString[$i][$char]))
+					$ret .= '<font color="red">' . $newString[$i][$char] . '</font>';
 				else
-					$ret .= $newString[$i]{$char};
+					$ret .= $newString[$i][$char];
 			}
 		}
 		return $ret;
