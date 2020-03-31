@@ -7,7 +7,7 @@ Dependancies
 
 Required Files
 * installer.php from this repo
-* Zipped File downloadable from this [link](https://drive.google.com/file/d/1x_Aup_dAJkHoKZ-gJxOZ5Tcg2Z6O2gqM/view?usp=sharing)
+* Zipped File downloadable from this [link](https://drive.google.com/file/d/1zJcTQRbnSSrItV6HTj7krHr8hX9ANPo6/view?usp=sharing)
 
 [Install LAMP Stack on Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-lamp-stack-on-ubuntu)
 
